@@ -1,0 +1,17 @@
+.next
+node_modules
+data
+.env.local
+.env.*.local
+.idea
+*.tsbuildinfo
+coverage
+dist
+npm-debug.log*
+.DS_Store
+
+# Local agent/session notes, not part of the public project.
+task_plan.md
+progress.md
+findings.md
+启动.md
