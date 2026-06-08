@@ -4,8 +4,8 @@
 
 :root {
   color-scheme: light;
-  background: #f5f2ea;
-  color: #1f2933;
+  background: #f3f6f4;
+  color: #15202b;
 }
 
 * {
@@ -15,9 +15,9 @@
 body {
   margin: 0;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(245, 242, 234, 0.92)),
-    #f5f2ea;
-  color: #1f2933;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(243, 246, 244, 0.96)),
+    #f3f6f4;
+  color: #15202b;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -39,9 +39,13 @@ pre {
 }
 
 .tool-panel {
-  @apply rounded border border-line bg-white/95 shadow-soft;
+  @apply rounded-lg border border-line bg-white/95 shadow-soft;
 }
 
 .muted-panel {
-  @apply rounded border border-line bg-[#fbfaf6];
+  @apply rounded-lg border border-line bg-[#fbfcfa];
+}
+
+.step-dot {
+  @apply grid h-6 w-6 shrink-0 place-items-center rounded-full border border-white/20 bg-white/10 text-xs font-semibold text-white;
 }

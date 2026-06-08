@@ -6,6 +6,20 @@ Local-first AI long-form fiction writing workbench with story bibles, outlines, 
 
 Novel Studio AI is not a simple chat UI. It is a local-first writing system designed for serialized novels and long manuscripts. The app helps writers keep story facts, character status, outline plans, style rules, and confirmed memory separate from temporary drafts, so later chapters can reuse structured context instead of relying on model chat history.
 
+## Screenshots
+
+### Project Launchpad
+
+![Project launchpad](public/screenshots/home.png)
+
+### Novel Command Center
+
+![Novel command center](public/screenshots/dashboard.png)
+
+### Chapter Studio
+
+![Chapter Studio](public/screenshots/chapter-studio.png)
+
 ## Why This Exists
 
 Long-form AI writing often breaks when the model forgets earlier chapters, moves characters to impossible locations, changes item ownership, revives dead characters casually, or drifts away from the intended style. This project treats each accepted chapter as a structured memory update:

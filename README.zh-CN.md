@@ -6,6 +6,20 @@
 
 Novel Studio AI 不是普通聊天界面，而是围绕“设定圣经 + 文风圣经 + 大纲系统 + 角色状态表 + 三元组图谱 + 检索记忆 + 最近三章上下文 + 一致性检查”组织长篇连载写作。它会把临时草稿和已确认正文分开，避免模型只靠聊天上下文记整本书。
 
+## 界面截图
+
+### 项目启动台
+
+![项目启动台](public/screenshots/home.png)
+
+### 小说控制台
+
+![小说控制台](public/screenshots/dashboard.png)
+
+### Chapter Studio
+
+![Chapter Studio](public/screenshots/chapter-studio.png)
+
 ## 为什么做这个项目
 
 AI 写长篇时经常会遗忘前文、人物状态错乱、地点跳跃、道具归属混乱、死亡角色随意行动，或者文风越写越飘。这个项目把每个已接受章节都当成一次结构化记忆更新：
