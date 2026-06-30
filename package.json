@@ -20,7 +20,7 @@
     "next": "^15.1.6",
     "openai": "^4.79.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.2.7",
     "zod": "^3.24.1"
   },
   "devDependencies": {
