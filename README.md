@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+[![CI](https://github.com/YfengJ/novel-studio-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/YfengJ/novel-studio-ai/actions/workflows/ci.yml)
+
 Local-first AI long-form fiction writing workbench with story bibles, outlines, character state, graph facts, retrieval memory, and continuity checks.
 
 Novel Studio AI is not a simple chat UI. It is a local-first writing system designed for serialized novels and long manuscripts. The app helps writers keep story facts, character status, outline plans, style rules, and confirmed memory separate from temporary drafts, so later chapters can reuse structured context instead of relying on model chat history.
@@ -174,6 +176,15 @@ npm test           # Run Vitest tests
 npm run db:migrate # Initialize or migrate the SQLite schema
 npm run db:seed    # Create a sample fantasy novel project
 ```
+
+## GitHub Maintenance
+
+- CI runs tests, TypeScript checks, and production builds on pushes and pull requests.
+- Dependabot watches npm and GitHub Actions dependencies weekly.
+- Bug reports and feature requests use issue templates.
+- Pull requests include a verification and privacy checklist.
+- Contributor guidance lives in [CONTRIBUTING.md](CONTRIBUTING.md).
+- Security guidance lives in [SECURITY.md](SECURITY.md).
 
 ## Exports
 

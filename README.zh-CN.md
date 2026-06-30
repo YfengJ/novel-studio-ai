@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md) | [English](README.md)
 
+[![CI](https://github.com/YfengJ/novel-studio-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/YfengJ/novel-studio-ai/actions/workflows/ci.yml)
+
 本地优先的 AI 长篇小说创作工作台，支持设定圣经、大纲、角色状态、图谱事实、检索记忆和一致性检查。
 
 Novel Studio AI 不是普通聊天界面，而是围绕“设定圣经 + 文风圣经 + 大纲系统 + 角色状态表 + 三元组图谱 + 检索记忆 + 最近三章上下文 + 一致性检查”组织长篇连载写作。它会把临时草稿和已确认正文分开，避免模型只靠聊天上下文记整本书。
@@ -174,6 +176,15 @@ npm test           # 运行 Vitest 测试
 npm run db:migrate # 初始化或迁移 SQLite schema
 npm run db:seed    # 创建示例玄幻小说项目
 ```
+
+## GitHub 维护
+
+- CI 会在 push 和 pull request 时运行测试、TypeScript 检查和生产构建。
+- Dependabot 每周检查 npm 和 GitHub Actions 依赖更新。
+- Bug 和功能建议使用 issue templates。
+- Pull request 模板包含验证清单和隐私检查清单。
+- 贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 安全说明见 [SECURITY.md](SECURITY.md)。
 
 ## 导出
 

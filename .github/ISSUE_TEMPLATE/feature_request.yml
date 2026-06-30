@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest an improvement for long-form writing workflows.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep examples short and avoid private manuscript text.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What writing workflow or maintenance problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should the app do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Project setup
+        - Story Bible / Style Bible
+        - Outline system
+        - Chapter Studio
+        - Context Pack / retrieval
+        - Character state
+        - Graph facts
+        - Export / backup
+        - GitHub / project maintenance
+        - Other
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
